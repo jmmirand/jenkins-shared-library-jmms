@@ -4,7 +4,7 @@ def call(body) {
     echo "Check status"
 
     (1..3).each {
-        echo "Number: " + it
+        echo "Check Status Number: " + it
     }
 
     currentBuild.result = 'SUCCESS' //FAILURE to fail
