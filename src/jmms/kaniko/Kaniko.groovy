@@ -16,7 +16,7 @@ class Kaniko {
 
     def buildCustomImage(dockerRegistry, dockerfileRepo, dockerBuildParams) {
 
-      container(name: 'kaniko', shell: '/busybox/sh') {
+
 
         if (dockerfileRepo) {
             script.echo "Downloading Dockerfile repo"
@@ -50,7 +50,7 @@ class Kaniko {
             returnStatus: true
         )
         script.echo("executorCommandResult: ${executorCommandResult}")
-      }
+      
     }
 
     def buildDockerConfig(dockerRegistry) {
