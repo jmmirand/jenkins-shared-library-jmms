@@ -1,4 +1,4 @@
-import jmms.kaniko.kaniko
+import jmms.kaniko.Kaniko
 
 def call(script,
          dockerRegistry = null,
