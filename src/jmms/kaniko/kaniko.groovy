@@ -1,4 +1,4 @@
-package com.santander.ccc.build
+package jmms.kaniko
 
 import groovy.json.JsonOutput
 
