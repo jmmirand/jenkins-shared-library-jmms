@@ -1,4 +1,4 @@
-import com.santander.ccc.build.Kaniko
+import jmms.kaniko
 
 def call(script,
          dockerRegistry = null,
